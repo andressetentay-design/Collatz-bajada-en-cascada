@@ -66,9 +66,6 @@ python3 code/convergence_exact_calculation.py
 ```bash
 # Análisis paso a paso de P=1 a P=9
 less analysis/detailed_weight_calculation_P1_P9.md
-
-# Tabla de contenidos completa
-# Ver sección "📖 Tabla de Contenidos" abajo
 ```
 
 ---
@@ -80,7 +77,7 @@ less analysis/detailed_weight_calculation_P1_P9.md
 | [Conceptos Clave](#-conceptos-clave) | Definiciones rápidas | - |
 | [1. Marco de estudio](#1-marco-de-estudio) | Definición del problema | README.md |
 | [2-5. Teoremas 1-13](#3-aritmética-exacta-del-primer-descenso) | Estructura exacta del descenso | README.md |
-| [6. Balance modular](#6-bloques-y-balance-modular) | Teoremas 14-16: Por qué descienden | README.md |
+| [6. Balance modular](#6-bloques-y-balance-modular) | Teoremas 14-16 | README.md |
 | [7-10. Teoremas 17-20](#7-agotamiento-exponencial-de-las-ramas-supervivientes) | Convergencia y extremos | README.md |
 | [Verificación](#11-verificación-del-mecanismo-de-bloques) | 1.879M de enteros verificados | `data/verification_collatz_k28_k30.csv` |
 | [Cálculo de Pesos](#análisis-detallado-de-pesos-exactos) | P=1 a P=9 derivados | `analysis/detailed_weight_calculation_P1_P9.md` |
@@ -256,10 +253,6 @@ from convergence_exact_calculation import calcular_convergencia_exacta
 
 # Ejecutar para A hasta 500
 calcular_convergencia_exacta(500)
-
-# Salida:
-# - log_resultados_completos.txt
-# - resultado_exacto_A500.txt
 ```
 
 ---
@@ -286,7 +279,7 @@ calcular_convergencia_exacta(500)
 
 ¿Preguntas? ¿Sugerencias? ¿Encontraste algo interesante?
 
-**[→ Abre una Discussion aquí](../../discussions)**
+**[→ Abre una Discussion en GitHub](../../discussions)**
 
 ---
 
